@@ -14,6 +14,6 @@ class PropertyRepository extends AbstractBaseRepository implements PropertyRepos
             $query->where('bid_start_date_time', '>', Carbon::now())
                     ->orWhere('bid_close_date_time', '>', Carbon::now());
         }
-        return $query->get();
+        return $query->orderBy('bid_start_date_time', 'asc')->get();
     }
 }

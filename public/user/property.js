@@ -15,7 +15,11 @@ var Property = function ()
             data: {},
             success: function(response) {
                 this.mySuccess();
-               console.log(response)
+                if(typeof response.error != 'undefined')
+                {
+                    self.innerHTML = "<h1></h1>"
+                }
+                console.log(response)
                 self.innerHTML = '';
             },
             type:'POST',

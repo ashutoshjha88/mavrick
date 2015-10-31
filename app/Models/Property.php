@@ -21,4 +21,8 @@ class Property extends Model {
      */
     protected $fillable = ['user_id', 'property_url', 'property_title', 'bid_price', 'location', 'lat', 'lng', 'city_id', 'bid_start_date_time', 'bid_close_date_time'];
 
+    public function Cities(){
+        return $this->belongsTo(Cities::class, 'city_id');
+    }
+
 }

@@ -1,16 +1,24 @@
 ## Theme 2: Open House
 
-Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible. Explore and try to understand the problems which are faced by the potential buyers and the people managing the property &
+Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible.
 
-Design and build a solution around these problems related to Open House.
+## Code In Laravel Php Framework
+Trying to solve the puzzle, by introducing Bidding Mechanism where house owner can open a bid and seekers can bid.
+On a given day seekers can bid on as many deals as possible until he is not on the top bidder for any given bid.
+ Also trying salesman travel algorithm so that seeker can visit as many house as possible based on given slot and his/her time preferences.
 
-## Official Documentation
+## Motivation
 
-Owner:  Create Slot for Open House.
-Seeker: Depending on their requirement get timeline for him, for visiting those places, and start bidding any point of time.
-Algo:   Seeker can bid only when he is not on top in any of the bid. If he is on the top of the bid, hs other bids are deactivated till the time his bid again falls down to second, andafter this again he is open for bid again,
+We are here in Codesign Hackathon hosted by Grabhouse company. We got this challenge here itself and trying to nailed it down.
 
-## Contributing
+## Installation
+    * Create Database name as mavrick
+    * open env file in this project change DB_HOST, DB_DATABASE, DB_USERNAME, DB_PASSWORD accordingly.
+    * run command: $ php artisan migrate
+    * run command: $ php artisan db:seed
+    * Enjoy :)
+
+## Contributors
 
 Ashutosh Kumar (Full LAMP Stack Developer)
 Faraj (Android Developer)
@@ -18,9 +26,9 @@ Akhil Sreenivasan (UI/UX Developer)
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Ashutosh Kumar at ashutosh.sce@hotmail.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within, please send an e-mail to Ashutosh Kumar at ashutosh.sce@hotmail.com. All security vulnerabilities will be promptly addressed.
 
 ### License
 
-Free to use without abusing us, We will be not responsible in any ways for the consequence after using it.
+Free to use/abuse, Anyway We will be not responsible for the consequence after using it.
 
