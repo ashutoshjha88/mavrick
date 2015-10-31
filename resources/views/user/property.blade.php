@@ -22,22 +22,24 @@
     </div>
     <div class="property_list">
         <div class="container elementShow background-color" id="list-view" style="margin-top:-20px;" >
-            <div class="grid-item">
+            <div class="grid">
+                <div class="grid-item">
                 <div class="list-image"> <img src="../images/main-.jpg" class="img-responsive" height="200">
-                <div class="rating">
-                    <input class="input-2a" value="3.5" type="number" min=0 max=5 step=0.1 data-size="index" data-show-clear="false" data-show-caption="false" readonly="true" >
+                    <div class="rating">
+                        <input class="input-2a" value="3.5" type="number" min=0 max=5 step=0.1 data-size="index" data-show-clear="false" data-show-caption="false" readonly="true" >
+                    </div>
+                    <div class="favourite-index"> <i class="icon icon-ea-heart"></i> </div>
                 </div>
-                <div class="favourite-index"> <i class="icon icon-ea-heart"></i> </div>
-            </div>
-            </div>
-            <div class="padding-15">
-                <div class="heading"> Lovely Cottages in a green estate </div>
-                <p>Homestay - Private Room <br>
-                    in Coorg, Karnataka, India.</p>
+                <div class="padding-15">
+                    <div class="heading"> Lovely Cottages in a green estate </div>
+                    <p>Homestay - Private Room <br>
+                        in Coorg, Karnataka, India.</p>
 
-                <div class="pricing"> <span class="currency">INR</span> <span class="currency1">12500</span> </div>
-                <span class="bidnow">Bid</span>
-                <div class="clearfix"></div>
+                    <div class="pricing"> <span class="currency">INR</span> <span class="currency1">12500</span> </div>
+                    <span class="bidnow">Bid</span>
+                    <div class="clearfix"></div>
+                </div>
+            </div>
             </div>
         </div>
     </div>
@@ -48,5 +50,10 @@
 @section('scripts')
     $( document ).ready(function() {
         Property.init();
+        $('.grid').masonry({
+            itemSelector: '.grid-item',
+            columnWidth: 242,
+            gutter: 15
+        });
     });
 @endsection
