@@ -2,6 +2,7 @@
 
 use App\Contracts\Services\PropertyServiceInterface;
 use App\Http\Controllers\UserController;
+use Laracasts\Utilities\JavaScript\JavaScriptFacade;
 
 class PropertyController extends UserController{
 
@@ -17,6 +18,11 @@ class PropertyController extends UserController{
     }
 
     public function getPropertyList(){
+
+        JavaScriptFacade::put([
+            'property_ajax_url' => route('property_list_ajax'),
+        ]);
+
         return view('user.property');
     }
 

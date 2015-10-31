@@ -55,5 +55,5 @@ Route::group(['prefix' => "admin", 'middleware' => ['auth','admin'], 'namespace'
 
 Route::group(['middleware' => 'auth', 'namespace' => 'User'], function() {
     Route::get('property-list', ['as'=>'property_list', 'uses'=>'PropertyController@getPropertyList']);
-    Route::get('property-list-ajax', ['as'=>'property_list', 'uses'=>'PropertyController@getPropertyListAjax']);
+    Route::post('property-list-ajax', ['as'=>'property_list_ajax', 'uses'=>'PropertyController@getPropertyListAjax']);
 });
