@@ -1,27 +1,25 @@
-## Laravel PHP Framework
+## Theme 2: Open House
 
-[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
-[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
-[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
-[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible. Explore and try to understand the problems which are faced by the potential buyers and the people managing the property &
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable, creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as authentication, routing, sessions, queueing, and caching.
-
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
+Design and build a solution around these problems related to Open House.
 
 ## Official Documentation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Owner:  Create Slot for Open House.
+Seeker: Depending on their requirement get timeline for him, for visiting those places, and start bidding any point of time.
+Algo:   Seeker can bid only when he is not on top in any of the bid. If he is on the top of the bid, hs other bids are deactivated till the time his bid again falls down to second, andafter this again he is open for bid again,
 
 ## Contributing
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+Ashutosh Kumar (Full LAMP Stack Developer)
+Faraj (Android Developer)
+Akhil Sreenivasan (UI/UX Developer)
 
 ## Security Vulnerabilities
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+If you discover a security vulnerability within Laravel, please send an e-mail to Ashutosh Kumar at ashutosh.sce@hotmail.com. All security vulnerabilities will be promptly addressed.
 
 ### License
 
-The Laravel framework is open-sourced software licensed under the [MIT license](http://opensource.org/licenses/MIT)
+Free to use without, We will be not responsible in any ways for the consequence after using it.
