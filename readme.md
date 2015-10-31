@@ -2,7 +2,15 @@
 
 Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible.
 
-## Code In Laravel Php Framework
+## Coded In Laravel Php Framework
+### Laravel PHP Framework
+
+[![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
+[![Total Downloads](https://poser.pugx.org/laravel/framework/d/total.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Stable Version](https://poser.pugx.org/laravel/framework/v/stable.svg)](https://packagist.org/packages/laravel/framework)
+[![Latest Unstable Version](https://poser.pugx.org/laravel/framework/v/unstable.svg)](https://packagist.org/packages/laravel/framework)
+[![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
+
 Trying to solve the puzzle, by introducing Bidding Mechanism where house owner can open a bid and seekers can bid.
 On a given day seekers can bid on as many deals as possible until he is not on the top bidder for any given bid.
  Also trying salesman travel algorithm so that seeker can visit as many house as possible based on given slot and his/her time preferences.
