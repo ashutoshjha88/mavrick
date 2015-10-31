@@ -40,6 +40,8 @@
     @yield('content')
 </div>
 
+<br/>
+<br/>
 @include('partials.footer')
 @include('partials.footer-for-script')
 

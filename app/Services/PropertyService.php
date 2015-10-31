@@ -46,16 +46,26 @@ class PropertyService extends AbstractBaseService implements PropertyServiceInte
      * @return array
      */
     protected function preparePropertyOfArray($property_details_object){
+        $start_bid = false;
+        $current_time = strtotime('now');
+        if( strtotime($property_details_object->bid_close_date_time) > $current_time && strtotime($property_details_object->bid_start_date_time) <= $current_time)
+        {
+            $start_bid = true;
+        }
+
         return [
             'property_url'=> $property_details_object->property_url,
             'property_title'=> $property_details_object->property_title,
-            'bid_price'=> $property_details_object->bid_price,
+            'image' => $property_details_object->image,
+            'bid_price'=> number_format( $property_details_object->bid_price),
             'location'=> $property_details_object->location,
             'lat'=> $property_details_object->lat,
             'lng'=> $property_details_object->lng,
             'city_id'=> $property_details_object->city_id,
+            'city_name'=> $property_details_object->Cities->city_name,
             'bid_start_date_time'=> $property_details_object->bid_start_date_time,
             'bid_close_date_time'=> $property_details_object->bid_close_date_time,
+            'start_bid'=>$start_bid
         ];
     }
 }

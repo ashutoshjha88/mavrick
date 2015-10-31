@@ -20,9 +20,9 @@ class PropertyTableSeeder extends Seeder
                 [
                     'user_id' => $faker->randomElement([1,2,3,4]),
                     'property_url' => $faker->url,
-                    'image' => $faker->imageUrl(180, 140),
+                    'image' => $faker->imageUrl(242, 162),
                     'property_title' => $faker->sentence,
-                    'bid_price'=>$faker->randomFloat(null, 1000),
+                    'bid_price'=>$faker->randomFloat(null, 1000, 100000),
                     'location'=>$faker->address.', '.$faker->city.', '.$faker->country,
                     'lat'=>$faker->latitude,
                     'lng'=>$faker->longitude,
