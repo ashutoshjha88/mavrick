@@ -1,4 +1,4 @@
-﻿@font-face {
+?@font-face {
   font-family: "facilities";
   src:url("../fonts/facilities.eot");
   src:url("../fonts/facilities.eot?#iefix") format("embedded-opentype"),
@@ -1396,6 +1396,11 @@ ol.acc-wizard-sidebar li.acc-wizard-active:after{
 .grid-item .heading{
 	color:#F64747;
 	text-align:center;
+	display: block;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	width: 180px;
 	}
 .grid-item p{
 	text-align:center;

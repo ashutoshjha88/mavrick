@@ -50,6 +50,11 @@ var Property = function ()
                 else
                 {
                     self.innerHTML = drawPropertyItemInRow(response);
+                    $('.grid').masonry({
+                        itemSelector: '.grid-item',
+                        columnWidth: 242,
+                        gutter: 15
+                    });
                 }
             },
             type:'POST',
