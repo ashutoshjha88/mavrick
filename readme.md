@@ -19,10 +19,9 @@ We are here in Codesign Hackathon hosted by Grabhouse company. We got this chall
     * Enjoy :)
 
 ## Contributors
-
-Ashutosh Kumar (Full LAMP Stack Developer)
-Faraj (Android Developer)
-Akhil Sreenivasan (UI/UX Developer)
+    * Akhil Sreenivasan (UI/UX Developer)
+    * Faraj (Android Developer)
+    * Ashutosh Kumar (Full LAMP Stack Developer)
 
 ## Security Vulnerabilities
 
