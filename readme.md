@@ -1,9 +1,5 @@
 ## Theme 2: Open House
 
-[![Build Status]()
-[![Total Downloads]()
-[![Latest Unstable Version]()
-
 Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible. Explore and try to understand the problems which are faced by the potential buyers and the people managing the property &
 
 Design and build a solution around these problems related to Open House.
