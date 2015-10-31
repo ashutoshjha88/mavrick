@@ -23,3 +23,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ### License
 
 Free to use without abusing us, We will be not responsible in any ways for the consequence after using it.
+
