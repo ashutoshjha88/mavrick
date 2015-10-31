@@ -11,9 +11,10 @@
 |
 */
 
+/* Just for scraping test auto login is given, it will only work in local not in development or staging server */
 if( env('APP_ENV')=='local'  && ! empty( $_REQUEST['api'] ) && $_REQUEST['api']=='testing')
 {
-Auth::loginUsingId(2);
+    Auth::loginUsingId(2);
 }
 
 Route::get('file', 'User\PropertyController@signUpForm');
@@ -53,7 +54,6 @@ Route::group(['prefix' => "admin", 'middleware' => ['auth','admin'], 'namespace'
 });
 
 Route::group(['middleware' => 'auth', 'namespace' => 'User'], function() {
-
-
-
+    Route::get('property-list', ['as'=>'property_list', 'uses'=>'PropertyController@getPropertyList']);
+    Route::post('property-list-ajax', ['as'=>'property_list_ajax', 'uses'=>'PropertyController@getPropertyListAjax']);
 });

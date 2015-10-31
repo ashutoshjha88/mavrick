@@ -37,6 +37,7 @@
 </div>
 
 @include('partials.footer')
+@include('partials.footer-for-script')
 
 <script>
     $.ajaxSetup({
@@ -45,8 +46,8 @@
         }
     });
     $.validate();
+    @yield('scripts')
 </script>
-@yield('scripts')
 
 </body>
 </html>

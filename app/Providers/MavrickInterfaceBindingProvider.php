@@ -30,9 +30,10 @@ class MavrickInterfaceBindingProvider extends ServiceProvider {
     public function register()
     {
         /**********************************Repositories Layer ******************************************************************/
-
+        $this->app->bind('App\Contracts\Repositories\PropertyRepositoryInterface', 'App\Repositories\PropertyRepository');
 
         /**********************************Service Layer ******************************************************************/
+        $this->app->bind('App\Contracts\Services\PropertyServiceInterface', 'App\Services\PropertyService');
 
     }
 
