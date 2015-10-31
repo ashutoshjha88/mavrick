@@ -45,8 +45,8 @@
         }
     });
     $.validate();
+    @yield('scripts')
 </script>
-@yield('scripts')
 
 </body>
 </html>
