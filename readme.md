@@ -4,8 +4,6 @@ Open house is an event where the all available properties will be open for any i
 
 Design and build a solution around these problems related to Open House.
 
-Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
-
 ## Official Documentation
 
 Owner:  Create Slot for Open House.
