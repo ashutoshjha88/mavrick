@@ -1,8 +1,14 @@
 ## Theme 2: Open House
 
+[![Build Status]()
+[![Total Downloads]()
+[![Latest Unstable Version]()
+
 Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible. Explore and try to understand the problems which are faced by the potential buyers and the people managing the property &
 
 Design and build a solution around these problems related to Open House.
+
+Laravel is accessible, yet powerful, providing powerful tools needed for large, robust applications. A superb inversion of control container, expressive migration system, and tightly integrated unit testing support give you the tools you need to build any application with which you are tasked.
 
 ## Official Documentation
 
@@ -22,4 +28,4 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 
 ### License
 
-Free to use without, We will be not responsible in any ways for the consequence after using it.
+Free to use without abusing us, We will be not responsible in any ways for the consequence after using it.
