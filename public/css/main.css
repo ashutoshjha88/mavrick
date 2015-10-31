@@ -21,9 +21,6 @@
     background-position:center;
     margin:-100px 0 0 -100px; /* is width and height divided by two */
 }
-.navbar-default{
-    background-color: #3498DB;
-}
 .ad-nav{
     /*background: #408080;*/
     height: 95px;

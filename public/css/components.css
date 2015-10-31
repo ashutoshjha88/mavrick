@@ -1,4 +1,4 @@
-div,
+﻿div,
 input,
 select,
 textarea,
@@ -34,8 +34,8 @@ General reset
 ***/
 /* Set default body */
 body {
-  color: #333333;
-  font-family: "Open Sans", sans-serif;
+  color: #494949;
+  font-family: "Varela Round", Open Sans, sans-serif;
   padding: 0px !important;
   margin: 0px !important;
   font-size: 13px;
@@ -968,7 +968,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Varela Round", 'Open Sans', sans-serif;
   font-weight: 300;
 }
 
@@ -2711,8 +2711,8 @@ Dropdown Menu
 .btn-group > .dropdown-menu:before {
   position: absolute;
   top: -8px;
-  left: 9px;
-  right: auto;
+  left: auto;
+  right: 9px;
   display: inline-block !important;
   border-right: 8px solid transparent;
   border-bottom: 8px solid #e0e0e0;
@@ -2724,8 +2724,8 @@ Dropdown Menu
 .btn-group > .dropdown-menu:after {
   position: absolute;
   top: -7px;
-  left: 10px;
-  right: auto;
+  left: auto;
+  right: 10px;
   display: inline-block !important;
   border-right: 7px solid transparent;
   border-bottom: 7px solid #fff;
@@ -3493,20 +3493,7 @@ select.input-sm {
 }
 
 /* Input spinner */
-input[type="text"].spinner,
-input[type="password"].spinner,
-input[type="datetime"].spinner,
-input[type="datetime-local"].spinner,
-input[type="date"].spinner,
-input[type="month"].spinner,
-input[type="time"].spinner,
-input[type="week"].spinner,
-input[type="number"].spinner,
-input[type="email"].spinner,
-input[type="url"].spinner,
-input[type="search"].spinner,
-input[type="tel"].spinner,
-input[type="color"].spinner {
+input[type=text].spinner, input[type=password].spinner, input[type=datetime].spinner, input[type=datetime-local].spinner, input[type=date].spinner, input[type=month].spinner, input[type=time].spinner, input[type=week].spinner, input[type=number].spinner, input[type=email].spinner, input[type=url].spinner, input[type=search].spinner, input[type=tel].spinner, input[type=color].spinner {
   background-image: url("../img/input-spinner.gif") !important;
   background-repeat: no-repeat;
   background-position: right 8px;
@@ -7135,12 +7122,9 @@ Custimized Bootstrap Wells
 
 /*** Widget Gradient ***/
 .widget-map {
-  min-height: 350px;
-  border-top-right-radius: 3px !important;
-  border-top-left-radius: 3px !important;
-  border-bottom-right-radius: 3px !important;
-  border-bottom-left-radius: 3px !important;
-}
+  border-radius: 3px;
+	min-height: 350px;
+  }
 .widget-map .widget-map-mapplic {
   border-top-right-radius: 3px !important;
   border-top-left-radius: 3px !important;
@@ -14503,4 +14487,33 @@ Transparent Button
 .btn-transparent.btn {
   background: transparent;
   color: #888;
+}
+
+/* Dash Button Blue */
+.dashblue.btn {
+  color: #FFFFFF;
+  background-color: #41b4bb;
+}
+.dashblue.btn:hover, .dashblue.btn:focus, .dashblue.btn:active, .dashblue.btn.active {
+  color: #FFFFFF;
+  background-color: #57bfc5;
+}
+.open .dashblue.btn.dropdown-toggle {
+  color: #FFFFFF;
+  background-color: #57bfc5;
+}
+.dashblue.btn:active, .dashblue.btn.active {
+  background-image: none;
+  background-color: #41b4bb;
+}
+.dashblue.btn:active:hover, .dashblue.btn.active:hover {
+  background-color: #41b4bb;
+}
+.open .dashblue.btn.dropdown-toggle {
+  background-image: none;
+}
+
+.dashblue.btn .badge {
+  color: #41b4bb;
+  background-color: #FFFFFF;
 }

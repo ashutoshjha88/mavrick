@@ -23,6 +23,10 @@
 	<link href="{{ asset('plugins/bootstrap/css/bootstrap.min.css') }}" rel="stylesheet">
     <link href="{{ asset('plugins/font-awesome/css/font-awesome.min.css') }}" rel="stylesheet">
     <link href="{{ asset('plugins/jquery-form-validator/jquery-form-validator.min.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/custom.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/components.css') }}" rel="stylesheet">
+    <link href="{{ asset('css/responsive.css') }}" rel="stylesheet">
+    <link href="{{ asset('plugins/smart-forms/css/smart-forms.css') }}" rel="stylesheet">
     @yield('styles')
 
     <link rel="shortcut icon" href="{{ asset('favicon/favicon.ico') }}">
