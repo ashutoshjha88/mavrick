@@ -5,16 +5,16 @@ Open house is an event where the all available properties will be open for any i
 ## Finalized Part
 
 ####Design Templates
-*main-page: mavrick/openhouse/templates/main.html
-*timeline: listing-form: mavrick/openhouse/templates/travel-timeline.html
-*my-bidding: listing-form: mavrick/openhouse/templates/my-biddings.html
-*listing-page:  mavrick/openhouse/templates/index.html
-*listing-form: mavrick/openhouse/templates/listing-page.html
-*profile-page: listing-form: mavrick/openhouse/templates/my-profile.html
-*dashboard: listing-form: mavrick/openhouse/templates/dashboard.html
-*dashboard-listing: listing-form: mavrick/openhouse/templates/dashboard-listings.html
-*inbox: listing-form: mavrick/openhouse/templates/inbox.html
-*setting: listing-form: mavrick/openhouse/templates/settings.html
+    *main-page: mavrick/openhouse/templates/main.html
+    *timeline: listing-form: mavrick/openhouse/templates/travel-timeline.html
+    *my-bidding: listing-form: mavrick/openhouse/templates/my-biddings.html
+    *listing-page:  mavrick/openhouse/templates/index.html
+    *listing-form: mavrick/openhouse/templates/listing-page.html
+    *profile-page: listing-form: mavrick/openhouse/templates/my-profile.html
+    *dashboard: listing-form: mavrick/openhouse/templates/dashboard.html
+    *dashboard-listing: listing-form: mavrick/openhouse/templates/dashboard-listings.html
+    *inbox: listing-form: mavrick/openhouse/templates/inbox.html
+    *setting: listing-form: mavrick/openhouse/templates/settings.html
 
 
 ## Coded In Laravel Php Framework
