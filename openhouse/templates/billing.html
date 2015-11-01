@@ -1,0 +1,355 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+
+<head>
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+<meta name="description" content="">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="shortcut icon" type="image/png" href="../img/favicon.ico"/>
+<link rel="stylesheet" href="../css/bootstrap.min.css">
+<style>
+body {
+	/*padding-top: 80px;*/
+				background-color:#f9f9f9;
+	padding-bottom: 20px;
+}
+</style>
+<!-- <link rel="stylesheet" href="assets/css/bootstrap-theme.min.css"> -->
+<link rel="stylesheet" href="../css/responsive.css">
+<link rel="stylesheet" href="../css/custom.css">
+<link rel="stylesheet" href="../fonts/css/font-awesome.min.css" type="text/css">
+<link rel="stylesheet" type="text/css" href="../plugins/smart-forms/css/smart-forms.css">
+<link rel="stylesheet" type="text/css"  href="../plugins/smart-forms/css/smart-addons.css">
+<link rel="stylesheet" type="text/css" href="../css/components.css">
+<link rel="stylesheet" type="text/css" href="../plugins/intlTelInput/intlTelInput.css">
+<script src="../js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script>
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+<link href='https://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]--> 
+
+<!-- Preloader -->
+
+<div class="inner-main-bg">
+  <div class="transparent-layer">
+    <nav class="navbar navbar-default custom">
+      <div class="container container-fluid"> 
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
+          <div class="nomad-logo"> nomad.travel </div>
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#">Sign Up</a></li>
+            <li class="dropdown"> <a data-toggle="modal" data-target="#loginService">Login</a> </li>
+            <li>
+              <select id="currencychanger" class="custom-select">
+                <option style="margin:0px;padding:0px;width:100%;text-align:left" selected="selected">INR</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">USD</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">EUR</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">GBP</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">AUD</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">CAD</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">HKD</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">JPY</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">MYR</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">NZD</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">SGD</option>
+                <option style="margin:0px;padding:0px;width:100%;text-align:left">THB</option>
+              </select>
+            </li>
+            <li><a href="#"><span class="highlight-menu">List Your Space</span></a></li>
+          </ul>
+        </div>
+        <!-- /.navbar-collapse --> 
+      </div>
+      <!-- /.container-fluid --> 
+    </nav>
+  </div>
+</div>
+<div class="container">
+  <div class="">
+    <div class="smart-forms smart-container">
+      <div class="form-body smart-steps">
+        <form method="post" action="php/formprocess.php" id="smart-form">
+          <h2>Booking Summary</h2>
+          <fieldset>
+            <div class="offer-description"> offer available: upto 50% cashback + earn 5% extra on mobile app </div>
+            <div class="booked-details">
+              <div class="booking-history">
+                <h3>Lorum Ipsum Room <span>North beach in Goa</span></h3>
+                <span class="room-type">Room Type : <span>Delux</span></span>
+                <div class="clearfix margin-top-15">
+                  <div class="col-md-4 nopadding"> <img src="../images/main-.jpg" class="img-responsive"> </div>
+                  <div class="col-md-8">
+                    <div class="room-booked-for"> 1 Room for 3 Nights <span class="pull-right total-cost">Rs. 17500</span> </div>
+                    <div class="row">
+                      <div class="col-md-3"> <span class="check-date"> Check In <span>NOV 19</span> Thus 2 pm </span> </div>
+                      <div class="col-md-2 timings nopadding"> <i class="fa fa-clock-o"></i> 3 Nights </div>
+                      <div class="col-md-3"> <span class="check-date"> Check Out <span>NOV 22</span> Thus 2 pm </span> </div>
+                      <div class="clearfix"></div>
+                    </div>
+                    <div class="guest-box col-md-12"> Guests : 1 Adult </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="coupon-code">
+              <h3>Have a coupon code or gift voucher to redeem?</h3>
+              <div class="input-group input-xlarge">
+                <input type="text" name="project_title" id="project_title" class="form-control" placeholder="Apply Coupon Code Here">
+                <span class="input-group-btn">
+                <button class="btn blue">Apply Code</button>
+                </span> </div>
+            </div>
+            <div class="row">
+              <div class="col-md-6">
+                <div class="total-box">
+                  <div class="heading">Rate Details</div>
+                  <span class="price-desc">Room rate:</span><span class="price">Rs. 21500</span><br>
+                  <span class="price-desc">Paid Services:</span><span class="price">Rs. 21500</span><br>
+                  <span class="price-desc">Taxes and Fees:</span><span class="price">Rs. 21500</span><br>
+                  <span class="price-desc">Discount:</span><span class="price">Rs. -6500</span><br>
+                  <span class="price-desc">Total Payable:</span><span class="price total-cost">Rs. 17500</span><br>
+                </div>
+              </div>
+              <div class="col-md-6"> <span class="pull-right cancellation"><a href="">Cancellation policy: Easy</a></span> </div>
+            </div>
+          </fieldset>
+          <h2>Travellers</h2>
+          <fieldset>
+            <div class="frm-row">
+              <div class="section colm col-md-8">
+                <label class="field prepend-icon">
+                  <input type="text" name="firstname" id="firstname" class="gui-input" placeholder="Primary Traveller : Akhil sreenivasan">
+                  <span class="field-icon"><i class="fa fa-user"></i></span> </label>
+              </div>
+              <div class="section colm col-md-6">
+                <label class="field prepend-icon">
+                  <input type="tel" name="telephone" id="telephone" class="gui-input" placeholder="" value="984655320" readonly>
+                  <span class="field-icon"><i class="fa fa-phone-square"></i></span> </label>
+              </div>
+              <div class="section colm col-md-6 verified"> <i class="fa fa-check-circle-o"></i> verified </div>
+              <div class="section colm col-md-6">
+                <label class="field prepend-icon">
+                  <input type="tel" name="telephone" id="telephone" class="gui-input" placeholder="" value="984655320">
+                  <span class="field-icon"><i class="fa fa-phone-square"></i></span> </label>
+              </div>
+              <div class="section colm col-md-6 not-verified"> <i class="fa fa-times-circle-o"></i> Number not verified <a class="btn blue" onClick="verifyPhone()">verify now</a> </div>
+              <div class="clearfix"></div>
+              <div style="margin-left:10px; margin-right:10px; margin-bottom:10px;">
+                <div class="verify-number-box" id="verify-number" style="display:none;"> <span class="heading">You need a verified phone number to make booking</span><br>
+                  <div class="input-group input-large">
+                    <input id="mobile-number" type="tel" name="mnum" class="form-control" />
+                    <span class="input-group-btn"> <a type="submit" class="btn blue" onClick="verifyOtp()">verify via sms</a> </span> </div>
+                </div>
+                <div class="verify-number-box" id="verify-otp" style="display:none"> <span class="heading">We sent a verification code to <strong>+91 9846555320</strong></span><br>
+                  <div class="input-group input-large"> <span style="float:left; line-height:30px; margin-right:5px;">please enter your verification code: </span>
+                    <input type="" name="" class="form-control"  style="float:left; width:80px;"/>
+                    <button type="submit" class="btn blue">verify</button>
+                    <button type="submit" class="btn default">cancel</button>
+                  </div>
+                </div>
+              </div>
+              
+              <!-- end section --> 
+            </div>
+            <span class="other-travellers">Other Travellers ( optional )</span>
+            <div class="frm-row">
+              <div id="other-travellers1">
+                <div class="section colm colm5">
+                  <label class="field">
+                    <input type="text" name="from" id="from" class="gui-input" placeholder="Name">
+                  </label>
+                </div>
+                <div class="section colm colm4">
+                  <label class="field">
+                    <input type="text" name="from" id="from" class="gui-input" placeholder="Phone Number">
+                  </label>
+                </div>
+                <div class="section colm colm1"> <a class="button button-right add-travellers"><i class="fa fa-plus"></i> </a> </div>
+              </div>
+              <div class="clearfix"></div>
+              <div id="newTravellers">
+                <div class="placeholder-text margin-bottom-10">
+                 Please note: The Primary traveller making the booking has to be part of the group to be staying at this property and has to present a valid ID, during the time of Check In</div>
+              	</div>
+            </div>
+            <!-- end frm-row section -->
+            
+          </fieldset>
+          <h2>Special Requests</h2>
+          <fieldset>
+            <div class="section">
+              <p class="help-text">Include any requests you have for your host which might you might want them to consider, to help make your stay better.</p>
+            </div>
+            <!-- end section -->
+            
+            <div class="section">
+              <label class="field prepend-icon">
+                <textarea class="gui-textarea" id="projectdetails" name="projectdetails" placeholder="Share Your Request Here"></textarea>
+                <span class="field-icon"><i class="fa fa-comments"></i></span> <span class="input-hint"> <strong>Share Your Request Here:</strong> add more project specific details </span> </label>
+            </div>
+           
+          </fieldset>
+          <h2>Confirm and Pay</h2>
+          <fieldset>
+            <div class="section">
+              <div class="notification alert-info">
+                <p>Plese cross check your information before submitting this order</p>
+              </div>
+            </div>
+            <!-- end section -->
+            
+            <div class="section">
+              <div class="section">
+                <div class="option-group field">
+                  <label class="option">
+                    <input type="checkbox" name="generalTerms" value="General Terms">
+                    <span class="checkbox"></span> Please <a href="#" class="smart-link"> read and agree </a> to our the terms </label>
+                </div>
+              </div>
+              <!-- end section --> 
+              
+            </div>
+            <!-- end section -->
+            
+            <div class="result"></div>
+          </fieldset>
+        </form>
+      </div>
+      <!-- end .form-body section --> 
+      
+    </div>
+    <!-- end .smart-forms section --> 
+  </div>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-1.11.0.min.js"><\/script>')</script> 
+<script src="../js/vendor/bootstrap.min.js"></script> 
+<script type="text/javascript" src="../js/jquery-ui/jquery.steps.min.js"></script> 
+<script type="text/javascript" src="../js/jquery-ui/jquery-ui-custom.min.js"></script> 
+<script type="text/javascript" src="../js/jquery-ui/jquery-ui-slider-pips.min.js"></script> 
+<script type="text/javascript" src="../js/jquery-ui/jquery-ui-touch-punch.min.js"></script> 
+<script type="text/javascript" src="../js/jquery-ui/jquery.formShowHide.min.js"></script> 
+<script type="text/javascript" src="../plugins/intlTelInput/intlTelInput.js"></script> 
+<script type="text/javascript">
+ 
+	 function verifyPhone(){
+		 $("#mobile-number").intlTelInput({
+			
+			utilsScript: "../lib/libphonenumber/build/utils.js"
+		  });
+		  $("#verify-number").slideDown('slow');	
+		  $("#verify-otp").hide();	 
+		}
+		
+	function verifyOtp(){
+		
+		 $("#verify-number").slideUp('slow');	 
+		 $("#verify-otp").slideDown('slow');	 
+		}
+	
+	function clone(){
+	var cloneIndex = $("#other-travellers1").length;
+    $('#other-travellers1').clone()
+        .insertBefore("#newTravellers")
+        .attr("id", "#other-travellers1" +  cloneIndex)
+        .find("*")
+        .each(function() {
+            var id = this.id || "";
+            var match = id.match(regex) || [];
+            if (match.length == 3) {
+                this.id = match[1] + (cloneIndex);
+            }
+        });       
+	}
+
+	$("a.add-travellers").on("click", clone);
+	
+		$(function(){
+			/* Form Steps
+			----------------------------------------------- */		
+			$("#smart-form").steps({
+				headerTag: "h2",
+				bodyTag: "fieldset",
+				transitionEffect: "slideLeft",
+				stepsOrientation: "vertical",
+				autoFocus: true,
+				labels: {
+					finish: "Submit Form",
+					next: "Continue",
+					previous: "Go Back",
+					loading: "Loading..." 
+				}				
+			});	
+				
+			/* Project datepicker range
+			----------------------------------------------- */			
+			$("#start_date").datepicker({
+				defaultDate: "+1w",
+				changeMonth: false,
+				numberOfMonths: 1,
+				prevText: '<i class="fa fa-chevron-left"></i>',
+				nextText: '<i class="fa fa-chevron-right"></i>',
+				onClose: function( selectedDate ) {
+					$( "#end_date" ).datepicker( "option", "minDate", selectedDate );
+				}
+			});
+			
+			$("#end_date").datepicker({
+				defaultDate: "+1w",
+				changeMonth: false,
+				numberOfMonths: 1,
+				prevText: '<i class="fa fa-chevron-left"></i>',
+				nextText: '<i class="fa fa-chevron-right"></i>',			
+				onClose: function( selectedDate ) {
+					$( "#start_date" ).datepicker( "option", "maxDate", selectedDate );
+				}
+			});
+			
+			/* The budget slider 
+			------------------------------------------------------ */
+			$( "#budget_slider" ).slider({
+				range: "min",
+				animate: true,
+				value: 1000,
+				min: 500,
+				max: 3000,
+				step: 500,
+				slide: function(event, ui) {
+					$("#budget").val("$" + ui.value);
+				}
+			});
+						
+			$("#budget").val( "$" + $("#budget_slider").slider("value"));
+			$("#budget_slider").slider("pips", { rest: "label", prefix: "$", suffix: "" });
+			$("#budget_slider").slider("float", { prefix: "$", suffix: "", pips: true });
+			
+			/* Show hide payment options
+			------------------------------------------------------- */
+			$('.smartfm-ctrl').formShowHide();		
+			
+			
+								
+		});    
+    </script>
+</body>
+</html>

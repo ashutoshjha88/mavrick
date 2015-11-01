@@ -1,0 +1,317 @@
+﻿/*------------Dashboard Listing----------*/
+.dashboard-menu{
+	background-color:#FFF;
+	box-shadow:0px 0px 2px 2px #DDD;
+	}
+.dashboard-menu ul{
+	margin:0px;
+	padding:0px;	
+	}	
+.dashboard-menu ul li{
+	float:left;
+	list-style:none;
+	padding-top:10px;
+	padding-bottom:10px;
+	}
+.dashboard-menu ul li.active{
+	font-weight:bold;
+	}	
+.dashboard-menu ul li a{
+	padding:15px;
+	color:#494949;
+	text-decoration:none;
+	}	
+.dashboard-menu ul li a:hover{
+	color:#999;
+	}	
+/* custom inclusion of right, left and below tabs */
+
+.tabs-below > .nav-tabs,
+.tabs-right > .nav-tabs,
+.tabs-left > .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+
+.tabs-left > .nav-tabs > li,
+.tabs-right > .nav-tabs > li {
+  float: none;
+}
+
+.tabs-left > .nav-tabs > li > a,
+.tabs-right > .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+
+.tabs-left > .nav-tabs {
+  float: left;
+
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+
+.tabs-right > .nav-tabs {
+  float: right;
+  margin-left: 19px;
+  border-left: 1px solid #ddd;
+}
+
+.tabs-right > .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 4px 4px 0;
+     -moz-border-radius: 0 4px 4px 0;
+          border-radius: 0 4px 4px 0;
+}
+
+.tabs-right > .nav-tabs > li > a:hover,
+.tabs-right > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #eeeeee #eeeeee #dddddd;
+}
+
+.tabs-right > .nav-tabs .active > a,
+.tabs-right > .nav-tabs .active > a:hover,
+.tabs-right > .nav-tabs .active > a:focus {
+  border-color: #ddd #ddd #ddd transparent;
+  *border-left-color: #ffffff;
+  color:#333;
+}
+.dshtab{
+	background:#FFF;
+	padding-top:15px;
+	padding-bottom:15px;
+	border: 1px solid #ddd;
+	}
+.dshtab1{
+	border:none;;
+	}	
+.dshtab1 li a{
+	color:#333;
+	}		
+.fc-center h2{
+	font-size:18px;
+	text-transform:uppercase;
+	}	
+.overview-box{
+	border:solid 1px #EEE;
+	padding-top:15px;
+	padding-bottom:15px;
+	}	
+.overview-box .col-md-3{
+	text-align:center;
+	border-right:solid 1px #EEE;
+	font-weight:bold;
+	text-transform:uppercase;
+	}
+.overview-box .col-md-3:last-child{
+	border:none;
+	}	
+.overview-box .col-md-3 span{
+	display:block;
+	text-align:center;
+	margin-top:20px;
+	font-weight:bold;
+	font-size:18px;
+	color:#37a000;
+
+}	
+.overview-box .staus-box{
+	border:solid 1px #37a000;
+	padding:5px;
+	border-radius:5px !important;
+	text-align:center;
+	width:100px;
+	margin-top:15px;
+	}	
+.overview-box button{
+	min-width:80px;
+	margin-left:5px;
+	float:right;
+	}	
+.reviews-dashboard span:first-child{
+	font-weight:bold;
+	display:block;
+	}
+.reviews-dashboard span:nth-child(2){
+	display:block;
+	}	
+.reviews-dashboard span.yet-to-review{
+	font-weight:bold;
+	float:left;
+	margin-top:45px;
+	color:#C90;
+	font-size:16px;
+	}
+.reviews-dashboard span.left-review{
+	font-weight:bold;
+	float:left;
+	margin-top:45px;
+	color:#096;
+	font-size:16px;
+	}
+.help-box{
+	background:#f7f7f7;
+	padding:10px;
+	margin-top:15px;
+	cursor:pointer;
+	}	
+.help-box-ans{
+	border:solid 1px #f7f7f7;
+	padding:5px;
+	}		
+			
+/*----------------------Dashboard--------------------*/			
+.dasboard-profile{
+	background:#FFF;
+	padding:15px;
+	border:solid 1px #EEE;
+	}
+.dashboard-profile-image{
+	float:left;
+	}
+.dashboard-profile-image img{
+	width:80px;
+	float:left;
+	margin-right:10px;
+	}	
+.dashboard-profile-image .profile-name{
+	float:left;
+	font-weight:bold;
+	line-height:80px;
+	}
+.overview-box.dashboard-profile	{
+	background-color:#fff;
+	padding-top:31px;	
+	}
+.overview-box.dashboard-profile .col-md-3{
+	text-transform:capitalize !important;
+	color:#666;
+	}	
+.overview-box.dashboard-profile .col-md-3 span{
+	margin-top:10px;
+	margin-bottom:10px;
+	}
+.overview-box.dashboard-profile .col-md-3 span i{
+	font-size:20px;
+	}		
+.list-space{
+	height:280px;
+	padding:15px;
+	background:#FFF;
+	text-align: center;
+	border:solid 1px #EEE;
+	}
+.list-space .heading{
+    display: block;
+    font-weight: bold;
+    font-size: 1.1em;
+	margin-bottom:5px;
+	}	
+.list-space p{
+	width:70%;
+	margin-top:5px;
+	margin:auto;
+	}	
+.list-space img{
+	display:block;
+	border-radius:50%;
+	overflow:hidden;
+	width:120px;
+	margin:auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	}	
+.alert-box{
+	background:#FFF;
+	border:solid 1px #EEE;
+	}	
+.alert-box .heading{
+	font-size:1.2em;
+	text-align:left !important;
+	display:block;
+	font-weight:bold;
+	padding:10px;
+	}	
+.alert-box ul{
+	margin:0px;
+	padding:0px;
+	}	
+.alert-box ul li{
+	border-top: solid 1px #EEE;
+    padding: 8px;
+    list-style: none;
+    clear: both;
+    float: left;
+    width: 100%;
+	}
+.alert-box ul li i{
+	font-size:40px !important;
+	float:left;
+	margin-top:10px;
+	margin-right:5px;
+	}	
+.alert-box ul li .results{
+	float:left;
+	}			
+.alert-box ul li .subject{
+	display:block;
+	}		
+.alert-box ul li .result-type{
+	color:#666;
+	font-size:12px;
+	}	
+						
