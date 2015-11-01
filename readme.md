@@ -2,6 +2,21 @@
 
 Open house is an event where the all available properties will be open for any interested party to walk-in for evaluation. Most probably the property will be closed by the end of the event. Seekers have the problem to visit as many properties as possible on that day. Owners would want to get as much rent for that property as possible.
 
+## Finalized Part
+
+####Design Templates
+main-page: mavrick/openhouse/templates/main.html
+timeline: listing-form: mavrick/openhouse/templates/travel-timeline.html
+my-bidding: listing-form: mavrick/openhouse/templates/my-biddings.html
+listing-page:  mavrick/openhouse/templates/index.html
+listing-form: mavrick/openhouse/templates/listing-page.html
+profile-page: listing-form: mavrick/openhouse/templates/my-profile.html
+dashboard: listing-form: mavrick/openhouse/templates/dashboard.html
+dashboard-listing: listing-form: mavrick/openhouse/templates/dashboard-listings.html
+inbox: listing-form: mavrick/openhouse/templates/inbox.html
+setting: listing-form: mavrick/openhouse/templates/settings.html
+
+
 ## Coded In Laravel Php Framework
 #### Laravel PHP Framework
 
