@@ -10,7 +10,8 @@ var Property = function ()
 
     var drawPropertyItem = function( property_details){
         var property= '<div class="grid-item">\
-        <div class="list-image"> <img src="'+property_details["image"]+'" class="img-responsive" height="200"></div>\
+        <div class="list-image"><img src="'+property_details["image"]+'" class="img-responsive" height="200"></div>\
+         <div style="position:absolute; top:10%;"></div><div class="clock-item clock-days countdown-'+property_details['property_id']+' col-sm-6 col-md-3"><div class="wrap"><div class="inner"><div id="canvas-days" class="clock-canvas"></div><div class="text"><p class="val">0</p><p class="type-days type-time">DAYS</p></div></div></div></div><div class="clock-item clock-hours countdown-time-value col-sm-6 col-md-3"><div class="wrap"><div class="inner"><div id="canvas-hours" class="clock-canvas"></div><div class="text"><p class="val">0</p><p class="type-hours type-time">Hrs</p></div></div></div></div><div class="clock-item clock-minutes countdown-time-value col-sm-6 col-md-3"><div class="wrap"><div class="inner"><div id="canvas-minutes" class="clock-canvas"></div><div class="text"><p class="val">0</p><p class="type-minutes type-time">Min</p></div></div></div></div><div class="clock-item clock-seconds countdown-time-value col-sm-6 col-md-3"><div class="wrap"><div class="inner"<div id="canvas-seconds" class="clock-canvas"></div><div class="text"><p class="val">0</p><p class="type-seconds type-time">Sec</p></div></div></div></div></div>\
         <div class="padding-15">\
         <div class="heading">'+property_details["property_title"]+'</div>\
         <p>'+property_details["location"]+'</p>\

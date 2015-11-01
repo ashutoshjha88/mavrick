@@ -1,5 +1,20 @@
 @extends('app')
 @section('title') Property :: @parent @stop
+@section('styles')
+    <style>
+
+        .text {
+            color: #000;
+            font-size: 12px;
+            position: absolute;
+            top: 20%;
+            right:0%;
+            text-align: center;
+            width: 100%;
+        }
+
+    </style>
+    @endsection
 @section('content')
     <div class="row">
         <div class="page-header">
@@ -13,9 +28,12 @@
             </div>
         </div>
     </div>
+
 @endsection
 @section('script-file')
     <script src="{{ asset('user/property.js') }}"></script>
+    <script src="{{ asset('plugins/final-countdown/kinetic.js') }}"></script>
+    <script src="{{ asset('plugins/final-countdown/jquery.final-countdown.js') }}"></script>
 @endsection
 @section('scripts')
     $( document ).ready(function() {
@@ -25,5 +43,6 @@
             columnWidth: 242,
             gutter: 15
         });
+
     });
 @endsection

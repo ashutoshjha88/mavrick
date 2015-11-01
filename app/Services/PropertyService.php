@@ -54,6 +54,7 @@ class PropertyService extends AbstractBaseService implements PropertyServiceInte
         }
 
         return [
+            'property_id'=>$property_details_object->id,
             'property_url'=> $property_details_object->property_url,
             'property_title'=> $property_details_object->property_title,
             'image' => $property_details_object->image,
